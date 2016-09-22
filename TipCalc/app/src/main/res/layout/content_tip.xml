@@ -19,8 +19,8 @@
         android:text="@string/main.button.submit"
         android:id="@+id/btnSubmit"
         android:layout_alignParentTop="true"
-        android:layout_toRightOf="@id/inputBill"
-        android:layout_toEndOf="@id/inputBill"/>
+        android:layout_toRightOf="@+id/inputBill"
+        android:layout_toEndOf="@+id/inputBill"/>
 
     <EditText
         android:layout_width="wrap_content"
@@ -40,8 +40,8 @@
         android:text="@string/main.button.increase"
         android:id="@+id/btnIncrease"
         android:layout_below="@+id/btnSubmit"
-        android:layout_alignLeft="@id/btnSubmit"
-        android:layout_alignStart="@id/btnSubmit"
+        android:layout_alignLeft="@+id/btnSubmit"
+        android:layout_alignStart="@+id/btnSubmit"
         />
 
     <Button
@@ -60,7 +60,7 @@
         android:layout_height="wrap_content"
         android:text="@string/main.button.clear"
         android:id="@+id/btnClear"
-        android:layout_below="@id/inputPercentege"
+        android:layout_below="@+id/inputPercentege"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         />
