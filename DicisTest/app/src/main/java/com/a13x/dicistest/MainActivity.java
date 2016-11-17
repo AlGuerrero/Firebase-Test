@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
 
         database = FirebaseDatabase.getInstance();
-        myReference = database.getReference("message");
+        myReference = database.getReference("message"); //mensaje
     }
 
     @OnClick(R.id.button)
